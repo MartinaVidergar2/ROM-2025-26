@@ -1,0 +1,11 @@
+a = -3:2:5
+b = 10:-2:2
+skalarni  = dot(a,b)
+
+
+A = [1, 2,-3,4;-1,0,-3/2,8;-2,2,2,1;0,2,-3,8/5]
+drugi_stolpec = A(:,2)
+vsota = sum(sum(A))
+povprecje = mean(A, "all")
+
+A1 = 
